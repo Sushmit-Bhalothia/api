@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.main{
+    display: flex;
+    
+  
+}
+
+.left{
+    background-color:rgb(243, 246, 243);
+    
+    border-right:4px groove rgb(250, 247, 247);
+    width: 240px;
+    
+     height: 100vh; 
+    overflow: auto;
+    position:sticky;
+  top: 0;
+ 
+    
+    
+}
+.top{
+    margin-top: 20px;
+    height: 50px;
+   
+}
+.logo{
+    background-color: rgb(192, 192, 192);
+    padding: 10px;
+    margin: 15px;
+    margin-top: 0px;
+    border-radius: 5%;
+}
+.img{
+    width: 35px;
+    height: 30px;
+    border-radius: 100%;
+    margin-left: 22px;
+    
+}
+h6{
+    display: inline-block;
+    margin-top: 0;
+    position: relative;
+    bottom: 20px;
+    left: 19px;
+}
+
+.left ul{
+   
+    list-style: none;
+}
+.left ul li{
+    padding: 12px 23px;
+}
+.left ul li:hover{
+    background-color: rgb(221, 249, 223);
+    cursor: pointer;
+}
+.right{
+    background-color:rgb(243, 246, 243);
+}
+.grid-container {
+    display: grid;
+    
+    grid-template-columns: 800px 400px;
+    
+    width: 1200px;
+ 
+  padding: 10px;
+  }
+  .grid-item {
+
+    background-color: rgb(214, 239, 209);
+    /* border:5px groove rgb(214, 239, 209); */
+    
+  
+
+  font-size: 13px;
+  text-align: center;
+  height: 35vh;
+  border-radius: 15px;
+  text-align: left;
+  margin: 30px;
+  
+  
+}
+.item1{
+    
+    width: 730px;
+    display: flex;
+    margin: 10px;
+    padding-left: 20px;
+}
+.item1 img{
+    height: 230px;
+    width: 230px;
+}
+.item1 p{
+    width: 420px;
+}
+.item2{
+    position: relative;
+    top: -20px;
+}
+.grid2container{
+    display: grid;
+    
+    grid-template-columns: auto auto auto;
+    margin-top: -90px;
+    margin-bottom: -40px;
+    
+
+ 
+  padding: 10px;
+
+}
+.adjust{
+    display: relative;
+    top: 25px;;
+} 
+.grid2-item {
+
+    background-color: rgb(255, 255, 255);
+  
+  margin: 10px;
+  font-size: 13px;
+  text-align: center;
+  height: 25vh;
+  border-radius: 15px;
+  text-align: left;
+  padding-left: 20px;
+  width: 350px;
+  /* border:5px groove rgb(252, 250, 250); */
+  
+} 
+.grid-3container {
+    display: grid;
+    
+    grid-template-columns: 400px 800px;
+    
+    width: 1200px;
+  
+  padding: 10px;
+  background-color:rgb(243, 246, 243);
+  }
+  .grid3-item{
+    background-color: #fff;
+    /* border:5px groove rgb(214, 239, 209); */
+  
+
+  font-size: 13px;
+  text-align: center;
+  height: 35vh;
+  border-radius: 15px;
+  text-align: left;
+  margin: 30px;
+    
+  }
